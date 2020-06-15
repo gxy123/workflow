@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    username: root
+    password:
+    url: jdbc:mysql://localhost:3306/workflow?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=false
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  application:
+    name: workflow
+  activiti:
+    check-process-definitions: false
+    database-schema-update: false
+server:
+  port: 8080
